@@ -26,6 +26,8 @@ The following packages are required to build OMR:
 - autoconf
 - curl
 
+Test
+
 
 Building DDR support for OMR
 ============================
