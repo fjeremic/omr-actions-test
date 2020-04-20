@@ -65,3 +65,5 @@ const OMR::X86::RealRegister::TR_RegisterBinaryEncoding OMR::X86::I386::RealRegi
    {0x06, 0, 0},        // xmm6
    {0x07, 0, 0},        // xmm7
    };
+
+// Test
