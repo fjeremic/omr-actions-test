@@ -46,6 +46,7 @@
 /** Number of pageSizes supported.  There is always 1 for the default size, and 1 for the 0 terminator.
  * The number of large pages supported determines the remaining size.
  * Responsibility of the implementation of omrvmem to initialize this table correctly.
+ * Test
  */
 #define OMRPORT_VMEM_PAGESIZE_COUNT 3
 
