@@ -1,7 +1,7 @@
 name: "Mark/Close Stale Issues/PRs"
 on:
   schedule:
-  - cron: "*/5 * * * *"
+  - cron: "* */1 * * *"
 
 jobs:
   stale:
@@ -14,7 +14,7 @@ jobs:
           This issue is stale because it has been open 180 days with no activity. Remove stale label or comment on the issue or it will be closed in 30 days.
         stale-pr-message: |-
           This pull request is stale because it has been open 180 days with no activity. Remove stale label or comment on the pull request or it will be closed in 30 days.
-        days-before-stale: 0
+        days-before-stale: 180
         days-before-close: 30
         stale-issue-label: 'stale'
         stale-pr-label: 'stale'
