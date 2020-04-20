@@ -37,6 +37,7 @@ namespace OMR { typedef OMR::X86::I386::CodeGenerator CodeGeneratorConnector; }
 
 #include "codegen/RegisterConstants.hpp"
 
+// Test
 class TR_RegisterCandidate;
 namespace TR { class Block; }
 namespace TR { class Node; }
