@@ -22,6 +22,7 @@
 #include "JitTest.hpp"
 #include "default_compiler.hpp"
 
+// Test
 class CallTest : public TRTest::JitTest {};
 
 int32_t oracleBoracle(int32_t x) { return x + 1123; } // Randomish number to avoid accidental test passes.
