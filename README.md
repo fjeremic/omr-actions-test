@@ -96,6 +96,7 @@ Who is using Eclipse OMR?
   has also been created but is not yet available in the open. (Our focus
   has been dominated by getting this code out into the open!)
 
+Test
 
 What's the licence?
 ===================
