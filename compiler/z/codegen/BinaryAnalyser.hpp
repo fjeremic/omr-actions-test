@@ -42,6 +42,7 @@ namespace TR { class Register; }
 #define BinaryReg3Mem2  0x40
 #define InvalidBACEMap  0x80
 
+// Test
 class TR_S390BinaryAnalyser : public TR_Analyser
    {
 
