@@ -11279,6 +11279,7 @@ OMR::Z::TreeEvaluator::arraysetEvaluator(TR::Node * node, TR::CodeGenerator * cg
    return NULL;
    }
 
+// Following function generates load and store sequence for array copy
 void
 OMR::Z::TreeEvaluator::generateLoadAndStoreForArrayCopy(TR::Node *node, TR::CodeGenerator *cg, TR::MemoryReference *srcMemRef, TR::MemoryReference *dstMemRef, TR_S390ScratchRegisterManager *srm, TR::DataType elenmentType, bool needsGuardedLoad, TR::RegisterDependencyConditions* deps)
    {
